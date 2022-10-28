@@ -1,8 +1,8 @@
+import { describe, expect, it } from "@jest/globals";
 import { getGreeting } from "./getGreeting";
-import { expect } from "chai";
 
 describe("getGreeting", () => {
   it("should return Hello, John!", () => {
-    expect(getGreeting("John")).to.equal("Hello, John!");
+    expect(getGreeting("John")).toEqual("Hello, John!");
   });
 });
