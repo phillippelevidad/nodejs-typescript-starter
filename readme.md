@@ -1,8 +1,9 @@
 # NodeJS + TypeScript starter project
 
-- Hot-reaload
+- Hot-reload
 - Linting with ESLint
-- Testing with Mocha and Chai
+- Testing with Jest
+- Debugging enabled
 
 ## Scripts
 
